@@ -20,7 +20,7 @@ def read_bmp_file(ff_name):
     print('Horizontal Resolution: %s' % struct.unpack('I', bmp.read(4)))
     print('Vertical Resolution:   %s' % struct.unpack('I', bmp.read(4)))
     print('Number of Colours:   %s' % struct.unpack('I', bmp.read(4)))
-    print('Important Colours:   %s' % struct.unpack('I', bmp.read(4)))
+    print('Important Coloursde:   %s' % struct.unpack('I', bmp.read(4)))
 
 
 f_name = "tmp_files/lavanda.bmp"
